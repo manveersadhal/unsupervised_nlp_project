@@ -1,8 +1,8 @@
-# Reddit Wall Street Bets Unsupervised Learning Proposal
+# Reddit WallStreetBets Unsupervised Learning Proposal
 #### Manveer Sadhal
 #### Nov 3, 2021
 ## Question
-Reddit's Wall Street Bets subreddit has been widely discussed in news media from 2020-2021 for performing in-depth analyses of the stock market and loosely organizing [short squeezes](https://www.investopedia.com/terms/s/shortsqueeze.asp) as a protest against the large financial institutions holding the short positions. Some Redditors have made a fortune almost overnight by taking part.
+Reddit's WallStreetBets subreddit has been widely discussed in news media from 2020-2021 for performing in-depth analyses of the stock market and loosely organizing [short squeezes](https://www.investopedia.com/terms/s/shortsqueeze.asp) as a protest against the large financial institutions holding the short positions. Some Redditors have made a fortune almost overnight by taking part.
 
 The goal of this project is to use unsupervised learning to evaluate trends in topics discussed as well as the sentiment of the discussion.
 ## Data Description
