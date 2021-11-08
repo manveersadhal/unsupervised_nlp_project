@@ -47,14 +47,16 @@ TF-IDF with LSA using five topics and an n-gram range from 1-3 highlights the fo
 
 ### Latent Dirichlet Allocation
 
-Topic modeling was attempted using LDA (pyLDAvis library). The topics identified are less clear than those using LSA.
+Topic modeling was attempted using LDA (pyLDAvis library). Separate topics can be seen using the count vectorizer, though this approach would also benefit from further text preprocessing.
+
+![pyLDAvis_mvp.png](pyLDAvis_mvp.png)
 
 ## Next Steps
-- Additional preprocessing
+- Additional preprocessing:
     - Stemming or lemmatization
     - Adding more stop words
     - Combining stock symbols and company names into the same token
 - Evaluation of non-negative matrix factorization (NMF) and possibly principal component analysis (PCA)
-- Collection of data from other time periods to compare topics over time
-- Identify most popular topics over time
-- Sentiment analysis, possibly over time
+- Submissions from the first week of each month collected going back to Jan 2019. Possible actions with this data:
+    - Identify most popular topics over time
+    - Sentiment analysis over time
