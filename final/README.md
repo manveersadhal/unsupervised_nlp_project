@@ -12,3 +12,5 @@ Located [here](unsupervised_nlp_writeup.md).
 [Modeling notebook](unsupervised_modeling_final.ipynb)
 
 [Streamlit app](app.py)
+
+Deployed app: https://wsb-app-metis.herokuapp.com/

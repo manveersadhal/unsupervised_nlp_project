@@ -66,3 +66,5 @@ The app also features the ability to compare word clouds from two months side-by
 
 ## Communication
 A summary of the modeling process and results will be communicated during a 5-minute slide presentation.
+
+The Streamlit app can be accessed here: https://wsb-app-metis.herokuapp.com/
