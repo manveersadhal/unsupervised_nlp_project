@@ -14,8 +14,12 @@ The LSA and NMF models were packaged into an interactive app to allow for live f
 ## Design
 The [WallStreetBets subreddit](https://www.reddit.com/r/wallstreetbets/) has soared in popularity in 2020-2021 and has been covered in news media for short squeezes aimed against large financial institutions holding short positions. Trends in topics were evaluated from January 2019 to November 2021.
 
+One application of this unsupervised learning model could be to use the topics identified as features in a supervised learning model aimed at predicting stock market movements.
+
 ## Data
 22,500 submissions were retrieved from the WallStreetBets subreddit from January 2019 to November 2021. Only submissions categorized as "deep dive" and "discussion" were included. Any remaining submissions with a text body under 100 characters were also excluded.
+
+Data was retrieved using the PushShift API. The retrieval and filtering of submissions was combined into one function to allow for additional data to be added in the future.
 
 ## Algorithms
 ### Text Preprocessing
