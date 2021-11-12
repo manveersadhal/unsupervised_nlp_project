@@ -8,10 +8,6 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import TruncatedSVD, NMF
 from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
 
-# import plotly.express as px
-# import pyLDAvis
-# import pyLDAvis.sklearn
-
 def display_wordcloud(text):
     wc_text = ' '.join(text)
     wordcloud = WordCloud(stopwords = stop_words.union('s'), random_state=137, background_color='white',
