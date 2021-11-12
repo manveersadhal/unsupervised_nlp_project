@@ -18,6 +18,18 @@ The [WallStreetBets subreddit](https://www.reddit.com/r/wallstreetbets/) has soa
 22,500 submissions were retrieved from the WallStreetBets subreddit from January 2019 to November 2021. Only submissions categorized as "deep dive" and "discussion" were included. Any remaining submissions with a text body under 100 characters were also excluded.
 
 ## Algorithms
+### Text Preprocessing
+- Removing special characters:
+    - Newline, ampersands, greater than, less than, zero-width space characters
+- Removing links
+- Removing punctuation
+- Removing capitalization
+- Removing digits
+- Removing extra spaces
+- Replacing popular stock symbols with company names
+- Removing stop words
+    - Standard SciKit-Learn English stop words with 162 additional stop words added.
+
 ### Model Selection
 The LSA model was used as a baseline, using both count and TF-IDF vectorization. LDA and NMF models were also evaluated.
 
